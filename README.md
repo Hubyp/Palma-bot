@@ -8,3 +8,6 @@
 <h3> Relase very soon on dicord server <a href="https://discord.gg/3UGvNPTatC">Palma Server</a></h3>
 <br>
   <img src="img/image.png" style="border-radius: 19%; height: 30%; width: 30%; item-align: left;">
+
+  # Team
+   [![Discord Presence](https://lanyard.cnrad.dev/api/948916911293497344)](https://discord.com/users/948916911293497344)
