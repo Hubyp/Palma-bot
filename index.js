@@ -34,27 +34,13 @@ const _0x51d13b=_0x2519;(function(_0x5de61e,_0x5a08ee){const _0x581160=_0x2519,_
 //events
 const _0x19b876=_0x4827;function _0x12f5(){const _0x1edc71=['endsWith','readdir','./events/','3619126NNVCNh','12152448fVJhJz','bind','log','42440784qprKgB','./events','forEach','10507884iRDbgS','1154450onOCeN','resolve','752550dOstLA','👌\x20Loadded\x20Event:\x20','44524PkRWTU','324wdgmat','cache'];_0x12f5=function(){return _0x1edc71;};return _0x12f5();}function _0x4827(_0x4e1ce9,_0x383702){const _0x12f514=_0x12f5();return _0x4827=function(_0x48278e,_0x4ed90e){_0x48278e=_0x48278e-0x1a5;let _0x5d11c7=_0x12f514[_0x48278e];return _0x5d11c7;},_0x4827(_0x4e1ce9,_0x383702);}(function(_0x1f0c8b,_0x553db1){const _0x57628=_0x4827,_0x5f0a8e=_0x1f0c8b();while(!![]){try{const _0x960e24=-parseInt(_0x57628(0x1b6))/0x1+-parseInt(_0x57628(0x1ae))/0x2+parseInt(_0x57628(0x1a9))/0x3*(-parseInt(_0x57628(0x1a8))/0x4)+-parseInt(_0x57628(0x1a6))/0x5+-parseInt(_0x57628(0x1b5))/0x6+parseInt(_0x57628(0x1af))/0x7+parseInt(_0x57628(0x1b2))/0x8;if(_0x960e24===_0x553db1)break;else _0x5f0a8e['push'](_0x5f0a8e['shift']());}catch(_0x44b9c3){_0x5f0a8e['push'](_0x5f0a8e['shift']());}}}(_0x12f5,0xed979),fs[_0x19b876(0x1ac)](_0x19b876(0x1b3),(_0x35ff91,_0x3314f5)=>{const _0x110f88=_0x19b876;_0x3314f5[_0x110f88(0x1b4)](_0x18da85=>{const _0x3fbfbc=_0x110f88;if(!_0x18da85[_0x3fbfbc(0x1ab)]('.js'))return;const _0x569bd5=require('./events/'+_0x18da85);let _0x4e22fe=_0x18da85['split']('.')[0x0];console[_0x3fbfbc(0x1b1)](_0x3fbfbc(0x1a7)+_0x4e22fe),client['on'](_0x4e22fe,_0x569bd5[_0x3fbfbc(0x1b0)](null,client)),delete require[_0x3fbfbc(0x1aa)][require[_0x3fbfbc(0x1a5)](_0x3fbfbc(0x1ad)+_0x18da85)];});}));
 
-client.on("messageCreate", (message) => {
-        if (message.content.startsWith("Download")) {
-         const exampleEmbed = new EmbedBuilder()
-    .setDescription(`**Download Info...**`)
-    .addFields(
-      { name: 'Hi ', value: `${message.author} | \`${message.author.tag}\` | \`${message.author.id}\`` },
-      { name: '**The executor has just started the work, we hope it will be on ??/05/2023! The website will be launched soon!**', value: `So Wait xD`, inline: true },
-    )
-    .setColor(0x0099FF)
-                 message.channel.send({ embeds: [exampleEmbed] });
-                //message.channel.send(`**Please don't ping Owner/Developer!**`)
-         }
-  /*if (message.content.startsWith("Download")) {
-    message.reply(`Hello <@${message.author.id}>! The executor has just started the work, we hope it will be on ??/05/2023! **The website will be launched soon!**`)
-  } else {
-          
-  }*/
 
 // get role by name
+//if (message.member.roles.cache.find(role => role.name === 'Developer')) { - - - - - - - - - - - - - - - - - - - - - - - - - - =}
 
-//if (message.member.roles.cache.find(role => role.name === 'Developer')) { }
+//Download Commands ["Download"]
+function _0x42e5(){const _0x1339e4=['24855194zmotHB','1598220MkHdgo','105879RBVOjl','607qYbjSX','startsWith','12XItbZo','channel','5085xFGNGR','Hi\x20','addFields','content','1042cZqcNN','36uESmDQ','Download','tag','setDescription','104ULAHsB','255843qmoCqP','1177510mfMqyn','11SWkiau','`\x20|\x20`','16880aYKupD','author'];_0x42e5=function(){return _0x1339e4;};return _0x42e5();}function _0x2b03(_0x45b13e,_0x4f18b2){const _0x42e534=_0x42e5();return _0x2b03=function(_0x2b038d,_0x3491ea){_0x2b038d=_0x2b038d-0x174;let _0x51c395=_0x42e534[_0x2b038d];return _0x51c395;},_0x2b03(_0x45b13e,_0x4f18b2);}(function(_0x4f9dce,_0x3b47ca){const _0x291036=_0x2b03,_0x210215=_0x4f9dce();while(!![]){try{const _0x3f5085=-parseInt(_0x291036(0x178))/0x1*(-parseInt(_0x291036(0x180))/0x2)+-parseInt(_0x291036(0x177))/0x3*(-parseInt(_0x291036(0x181))/0x4)+-parseInt(_0x291036(0x187))/0x5*(parseInt(_0x291036(0x17a))/0x6)+parseInt(_0x291036(0x186))/0x7*(-parseInt(_0x291036(0x185))/0x8)+-parseInt(_0x291036(0x17c))/0x9*(parseInt(_0x291036(0x18a))/0xa)+parseInt(_0x291036(0x188))/0xb*(-parseInt(_0x291036(0x176))/0xc)+parseInt(_0x291036(0x175))/0xd;if(_0x3f5085===_0x3b47ca)break;else _0x210215['push'](_0x210215['shift']());}catch(_0x106914){_0x210215['push'](_0x210215['shift']());}}}(_0x42e5,0x7d308),client['on']('messageCreate',_0xc19cf3=>{const _0x578933=_0x2b03;if(_0xc19cf3[_0x578933(0x17f)][_0x578933(0x179)](_0x578933(0x182))){const _0x28e2d6=new EmbedBuilder()[_0x578933(0x184)]('**Download\x20Info...**')[_0x578933(0x17e)]({'name':_0x578933(0x17d),'value':_0xc19cf3[_0x578933(0x174)]+'\x20|\x20`'+_0xc19cf3[_0x578933(0x174)][_0x578933(0x183)]+_0x578933(0x189)+_0xc19cf3[_0x578933(0x174)]['id']+'`'},{'name':'**The\x20executor\x20has\x20just\x20started\x20the\x20work,\x20we\x20hope\x20it\x20will\x20be\x20on\x20??/05/2023!\x20The\x20website\x20will\x20be\x20launched\x20soon!**','value':'So\x20Wait\x20xD','inline':!![]})['setColor'](0x99ff);_0xc19cf3[_0x578933(0x17b)]['send']({'embeds':[_0x28e2d6]});}}));
+
 
 /*Auto kill*/
 (function(_0x408573,_0x2e64be){const _0xec08fe=_0x49b8,_0x2a48ae=_0x408573();while(!![]){try{const _0x4ddbc6=parseInt(_0xec08fe(0xdd))/0x1+parseInt(_0xec08fe(0xda))/0x2+parseInt(_0xec08fe(0xe0))/0x3+parseInt(_0xec08fe(0xdf))/0x4+parseInt(_0xec08fe(0xe1))/0x5+parseInt(_0xec08fe(0xe4))/0x6+parseInt(_0xec08fe(0xe5))/0x7*(-parseInt(_0xec08fe(0xe3))/0x8);if(_0x4ddbc6===_0x2e64be)break;else _0x2a48ae['push'](_0x2a48ae['shift']());}catch(_0x14daaa){_0x2a48ae['push'](_0x2a48ae['shift']());}}}(_0x1bf6,0x97303));function _0x49b8(_0x1721e3,_0x50f2c5){const _0x1bf68b=_0x1bf6();return _0x49b8=function(_0x49b81e,_0x2f2c58){_0x49b81e=_0x49b81e-0xda;let _0x1f95e1=_0x1bf68b[_0x49b81e];return _0x1f95e1;},_0x49b8(_0x1721e3,_0x50f2c5);}function _0x1bf6(){const _0x4096ca=['519464BEVooY','The\x20Client\x20Has\x20Logged\x20In\x20Successfully','4091116fgSiLV','2950398MzYJTf','2587660oNyFeh','brightRed','4376tYTmYP','7225422WElDSD','48293NbmaZY','291084qSQOrQ','kill','log'];_0x1bf6=function(){return _0x4096ca;};return _0x1bf6();}const colors=require('colors');setInterval(()=>{const _0x1e0146=_0x49b8;!client||!client['user']?(console[_0x1e0146(0xdc)]('The\x20Client\x20Didn\x27t\x20Login\x20Proccesing\x20Kill\x201'[_0x1e0146(0xe2)]),process[_0x1e0146(0xdb)](0x1)):console[_0x1e0146(0xdc)](_0x1e0146(0xde)['brightGreen']);},0x7530);
