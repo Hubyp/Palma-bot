@@ -7,4 +7,4 @@
 <h3> Palma is new executor for Android and PC | 2023</h2>
 <h3> Relase very soon on dicord server <a href="https://discord.gg/3UGvNPTatC">Palma Server</a></h3>
 <br>
-  <img src="img/image.png" style="border-radius: 19px; height: 50%; width: 50%; item-align: right;">
+  <img src="img/image.png" style="border-radius: 19%; height: 30%; width: 30%; item-align: left;">
