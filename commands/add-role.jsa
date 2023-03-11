@@ -1,0 +1,45 @@
+const Discord = require("discord.js");
+const { SlashCommandBuilder } = require('@discordjs/builders');
+const { EmbedBuilder } = require('discord.js');
+
+const data = new SlashCommandBuilder()
+    .setName('add-role')
+    .setDescription('Add a role to a user.')
+    .addUserOption(option => 
+        option.setName('user')
+            .setDescription('The user to add the role to.')
+            .setRequired(true))
+    .addRoleOption(option =>
+        option.setName('role')
+            .setDescription('The role to add.')
+            .setRequired(true));
+
+module.exports.execute = async (client, interaction) => {
+    const user = interaction.options.getUser('user');
+    const role = interaction.options.getRole('role');
+    
+    if (!interaction.member.permissions.has('MANAGE_ROLES')) {
+        const embed = new Discord.MessageEmbed()
+            .setColor('#ff0000')
+            .setTitle('Access denied!')
+            .setDescription('You do not have permission to use this command.');
+
+        return interaction.reply({ embeds: [embed], ephemeral: true });
+    }
+
+    const member = interaction.member.guild.members.cache.get(user.id);
+    await member.roles.add(role.id);
+
+    const embed = new Discord.MessageEmbed()
+        .setColor('#00ff00')
+        .setTitle(`Added role "${role.name}" to ${user.username}.`);
+    await interaction.reply({ embeds: [embed], ephemeral: true });
+};
+
+module.exports.options = {
+    ...data.toJSON()
+};
+
+module.exports.config = {
+    enabled: true,
+};
